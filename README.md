@@ -1,5 +1,7 @@
 # JsonView
 
+This project as a sub-project is prepared for TopologyGraph.
+
 Use JSON to create SVG view!
 
 <img src="preview.png" alt="json view">

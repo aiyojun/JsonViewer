@@ -1,0 +1,91 @@
+{
+    "ViewType":"AbsoluteLayout",
+    "width": "400px",
+    "height": "380px",
+    "children":[
+        {
+            "ViewType":"View",
+            "x":"0px",
+            "y":"0px",
+            "width":"400px",
+            "height":"380px",
+            "BackgroundColor":"#FFFFFF",
+            "border":"0.5px solid rgb(0,0,0)"
+        },
+        {
+            "ViewType":"TextView",
+            "x":"5px",
+            "y":"15px",
+            "radius":"5px",
+            "text":"Pet",
+            "color":"#333333",
+            "width":"50px",
+            "height":"30px",
+            "AlignHorizontal":"center",
+            "FontFamily":"Times New Roman",
+            "FontSize":28
+        },
+        {
+            "ViewType":"ImageView",
+            "x":"0px",
+            "y":"40px",
+            "width":"400px",
+            "height":"260px",
+            "source":"img/dog.jpg"
+        },
+        {
+            "ViewType":"TextView",
+            "x":"100px",
+            "y":"120px",
+            "radius":"5px",
+            "text":"Beagle",
+            "color":"#FFFFFF",
+            "width":"200px",
+            "height":"100px",
+            "AlignHorizontal":"center",
+            "FontFamily":"Times New Roman",
+            "FontWeight":"bold",
+            "FontSize":28
+        },
+        {
+            "ViewType":"ButtonView",
+            "x":"364px",
+            "y":"15px",
+            "width":"30px",
+            "height":"30px",
+            "BackgroundImage":"img/light.png",
+            "click":"fn_light"
+        },
+        {
+            "ViewType":"ButtonView",
+            "x":"5px",
+            "y":"295px",
+            "width":"30px",
+            "height":"30px",
+            "BackgroundImage":"img/map.png",
+            "click":"getMap"
+        },
+        {
+            "ViewType":"ButtonView",
+            "x":"365px",
+            "y":"295px",
+            "width":"30px",
+            "height":"30px",
+            "BackgroundImage":"img/heart.png",
+            "click":"fn_heart"
+        },
+        {
+            "ViewType":"TextView",
+            "x":"5px",
+            "y":"330px",
+            "text":"Lovely little dog. We plan to adopt one.",
+            "color":"#333333",
+            "width":"390px",
+            "height":"40px",
+            "AlignHorizontal":"start",
+            "AlignVertical":"center",
+            "FontFamily":"Times New Roman",
+            "FontSize":18
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "ViewType":"AbsoluteLayout",
+    "width": "200px",
+    "height": "30px",
+    "children":[
+        {
+            "ViewType":"View",
+            "x":"0px",
+            "y":"0px",
+            "width":"200px",
+            "height":"30px",
+            "radius":"15px",
+            "BackgroundColor":"#FFFFFF"
+        },
+        {
+            "ViewType":"TextView",
+            "x":"0",
+            "y":"0",
+            "text":"ComponentName",
+            "color":"rgba(23,24,25,0.5)",
+            "width":"200px",
+            "height":"30px",
+            "FontFamily":"Times New Roman",
+            "FontWeight":"bold",
+            "FontStyle":"italic",
+            "FontSize":14
+        }
+    ]
+}

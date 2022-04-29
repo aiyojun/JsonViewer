@@ -1,0 +1,104 @@
+{
+    "ViewType":"LinearLayout",
+    "direction":"vertical",
+    "width":"100%",
+    "height":"100%",
+    "border":"1px solid rgb(200, 200, 200)",
+    "children":[
+        {
+            "ViewType":"View",
+            "width":"100%",
+            "height":"5px"
+        },
+        {
+            "ViewType":"LinearLayout",
+            "direction":"horizontal",
+            "mode":"between",
+            "width":"96%",
+            "height":"30px",
+            "margin":"0 auto 0 auto",
+            "children":[
+                {
+                    "ViewType":"TextView",
+                    "width":"50%",
+                    "height":"30px",
+                    "color":"#333333",
+                    "AlignHorizontal":"start",
+                    "text":"Pet",
+                    "FontFamily":"Times New Roman",
+                    "FontSize":24,
+                    "FontWeight":"bold"
+                },
+                {
+                    "width":"30px",
+                    "height":"30px",
+                    "ViewType":"ImageView",
+                    "source":"img/light.png",
+                    "click":"fn_light"
+                }
+            ]
+        },
+        {
+            "ViewType":"View",
+            "width":"100%",
+            "height":"5px"
+        },
+        {
+            "ViewType":"TextView",
+            "color":"white",
+            "text":"Beagle",
+            "BackgroundImage":"img/dog.jpg",
+            "width":"100%",
+            "height":"260px",
+            "FontSize":28,
+            "FontFamily":"Times New Roman",
+            "FontWeight":"bold"
+        },
+        {
+            "ViewType":"View",
+            "width":"100%",
+            "height":"5px"
+        },
+        {
+            "ViewType":"LinearLayout",
+            "width":"96%",
+            "margin":"0 auto 0 auto",
+            "height":"30px",
+            "direction":"horizontal",
+            "mode":"between",
+            "children":[
+                {
+                    "ViewType":"ImageView",
+                    "width":"30px",
+                    "height":"30px",
+                    "source":"img/map.png",
+                    "click":"getMap"
+                },
+                {
+                    "ViewType":"ImageView",
+                    "width":"30px",
+                    "height":"30px",
+                    "source":"img/heart.png",
+                    "click":"fn_heart"
+                }
+            ]
+        },
+        {
+            "ViewType":"View",
+            "width":"100%",
+            "height":"5px"
+        },
+        {
+            "ViewType":"TextView",
+            "width":"96%",
+            "margin":"0 auto 0 auto",
+            "height":"40px",
+            "AlignHorizontal":"start",
+            "AlignVertical":"center",
+            "text":"Lovely little dog. We plan to adopt one.",
+            "FontSize": 16,
+            "FontWeight": "bold",
+            "FontFamily":"sketchica"
+        }
+    ]
+}

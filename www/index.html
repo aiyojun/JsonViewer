@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Json Viewer</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="codemirror/codemirror.js"></script>
+    <link rel="stylesheet" href="codemirror/codemirror.css">
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="codemirror/theme/darcula.css">
+</head>
+<body>
+    <div style="width: 100%; height: 3rem; background: #333333; border-bottom: 1px solid rgb(100,100,100);">
+        <label style="height: 3rem; margin-left: 20px; font-size: 24px; color: #EEEEEE; font-weight: bold; line-height: 3rem;">Json Viewer</label>
+    </div>
+    <div id="viewer">
+        <div class="cbutton" id="render">Render</div>
+        <div style="width: 50%; height: 100%; display: flex; align-items: center; justify-content: center;">
+            <svg id="shower" style="width: calc(100% - 50px); height: calc(100% - 50px);" xmlns="http://www.w3.org/2000/svg">
+            </svg>
+        </div>
+        <div id="coder" style="display: none;"></div>
+        <div style="position:absolute; bottom: 50px; left: 20px; height: 30px; font-size:20px; color: white;" id="notifier"></div>
+    </div>
+
+<!--    <div id="app2" style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">-->
+<!--    </div>-->
+    <script src="index.js"></script>
+</body>
+
+
+</html>

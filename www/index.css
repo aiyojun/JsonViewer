@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Times New Roman", Helvetica, serif;
+}
+#viewer {
+    width: 100%;
+    height: calc(100% - 3rem - 1px);
+    position: relative;
+    display: flex;
+    background: rgba(33, 34, 35, 1);
+}
+#shower {
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*padding: 20px;*/
+}
+#coder {
+    width: 50%;
+    height: 100%;
+}
+.cbutton {
+    position: absolute;
+    top: 25px;
+    right: calc(50% + 10px);
+    width: 120px;
+    height: 30px;
+    background: #FFFFFF;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cbutton:hover {
+    background-color: lightskyblue;
+}
